@@ -1,18 +1,19 @@
 Name:    task-pulseaudio
 Version: 2008.1
 Release: %mkrel 1
-Summary: Metapackage for Pulse Audio
+Summary: Metapackage for PulseAudio
 Group:   Sound
 License: GPL
 #
 Requires: pulseaudio
 Requires: pulseaudio-utils
 Requires: pulseaudio-module-x11
-Requires: paman
 Requires: paprefs
 Requires: pavucontrol
-Requires: pavumeter
-Requires: padevchooser
+#
+Suggests: paman
+Suggests: pavumeter
+Suggests: padevchooser
 #
 Suggests: pulseaudio-module-zeroconf
 #
@@ -25,6 +26,6 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
-dependencies and recommended additions for running pulse audio.
+dependencies and recommended additions for running PulseAudio.
 
 %files
