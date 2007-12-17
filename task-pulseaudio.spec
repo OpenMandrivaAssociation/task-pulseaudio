@@ -23,7 +23,6 @@ Suggests: libflashsupport
 Suggests: alsa-plugins-pulseaudio
 
 BuildArch: noarch
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 This package is a meta-package, meaning that its purpose is to contain
