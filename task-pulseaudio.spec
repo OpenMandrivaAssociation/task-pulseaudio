@@ -1,6 +1,6 @@
 Name:    task-pulseaudio
 Version: 2008.1
-Release: %mkrel 2
+Release: %mkrel 3
 Summary: Metapackage for PulseAudio
 Group:   Sound
 License: GPL
@@ -11,9 +11,11 @@ Requires: pulseaudio-module-x11
 Requires: paprefs
 Requires: pavucontrol
 #
-Suggests: paman
-Suggests: pavumeter
-Suggests: padevchooser
+# don't suggest those, they aren't useful for most users
+# we don't want to get those installed by default
+#Suggests: paman
+#Suggests: pavumeter
+#Suggests: padevchooser
 #
 Suggests: pulseaudio-module-zeroconf
 #
