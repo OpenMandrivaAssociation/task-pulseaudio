@@ -1,6 +1,6 @@
 Name:    task-pulseaudio
 Version: 2008.1
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: Metapackage for PulseAudio
 Group:   Sound
 License: GPL
@@ -19,7 +19,8 @@ Requires: pavucontrol
 #
 Suggests: pulseaudio-module-zeroconf
 #
-Suggests: xine-pulse
+# don't suggest xine-pulse, plugin is not in a good shape ATM
+#Suggests: xine-pulse
 Suggests: gstreamer0.10-pulse
 Suggests: libflashsupport
 Suggests: alsa-plugins-pulseaudio
