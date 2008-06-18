@@ -1,6 +1,6 @@
 Name:    task-pulseaudio
 Version: 2008.1
-Release: %mkrel 4
+Release: %mkrel 5
 Summary: Metapackage for PulseAudio
 Group:   Sound
 License: GPL
