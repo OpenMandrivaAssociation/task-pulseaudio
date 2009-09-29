@@ -1,6 +1,6 @@
 Name:    task-pulseaudio
 Version: 2010.0
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Metapackage for PulseAudio
 Group:   Sound
 License: GPL
@@ -23,6 +23,10 @@ Suggests: pulseaudio-module-zeroconf
 #Suggests: xine-pulse
 Suggests: gstreamer0.10-pulse
 Suggests: alsa-plugins-pulseaudio
+
+# Flash plugin support pulse natively and libflashsupport now causes more
+# problems than it fixes
+Obsoletes: libflashsupport
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
