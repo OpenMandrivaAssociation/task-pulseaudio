@@ -1,6 +1,6 @@
 Name:		task-pulseaudio
 Version:	2011.0
-Release:	3
+Release:	4
 Summary:	Metapackage for PulseAudio
 Group:		Sound
 License:	GPL
@@ -21,6 +21,7 @@ Suggests:	pulseaudio-module-zeroconf
 # don't suggest xine-pulse, plugin is not in a good shape ATM
 #Suggests:	xine-pulse
 Suggests:	gstreamer0.10-pulse
+Suggests:	gstreamer1.0-pulse
 Suggests:	alsa-plugins-pulseaudio
 
 BuildArch:	noarch
