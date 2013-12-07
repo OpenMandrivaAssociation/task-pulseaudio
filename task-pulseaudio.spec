@@ -1,6 +1,6 @@
 Name:		task-pulseaudio
 Version:	2013.0
-Release:	4
+Release:	5
 Summary:	Metapackage for PulseAudio
 Group:		Sound
 License:	GPL
