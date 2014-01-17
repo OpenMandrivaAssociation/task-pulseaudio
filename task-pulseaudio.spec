@@ -1,5 +1,5 @@
 Name:		task-pulseaudio
-Version:	2013.0
+Version:	%distro_release
 Release:	1
 Summary:	Metapackage for PulseAudio
 Group:		Sound
