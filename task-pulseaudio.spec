@@ -1,6 +1,6 @@
 Name:		task-pulseaudio
 Version:	%distro_release
-Release:	5
+Release:	6
 Summary:	Metapackage for PulseAudio
 Group:		Sound
 License:	GPL
