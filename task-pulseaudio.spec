@@ -1,6 +1,8 @@
 Name:		task-pulseaudio
 Version:	%distro_release
-Release:	7
+# Ugly, but needed for 2015.0 -> 3.0 transition
+Epoch:          1
+Release:	8
 Summary:	Metapackage for PulseAudio
 Group:		Sound
 License:	GPL
@@ -20,7 +22,6 @@ Suggests:	pulseaudio-module-zeroconf
 #
 # don't suggest xine-pulse, plugin is not in a good shape ATM
 #Suggests:	xine-pulse
-Suggests:	gstreamer0.10-pulse
 Suggests:	gstreamer1.0-pulse
 Suggests:	alsa-plugins-pulseaudio
 
