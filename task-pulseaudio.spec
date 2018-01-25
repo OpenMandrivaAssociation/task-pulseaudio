@@ -2,7 +2,7 @@ Name:		task-pulseaudio
 Version:	%distro_release
 # Ugly, but needed for 2015.0 -> 3.0 transition
 Epoch:          1
-Release:	8
+Release:	9
 Summary:	Metapackage for PulseAudio
 Group:		Sound
 License:	GPL
@@ -10,7 +10,7 @@ Requires:	pulseaudio
 Requires:	pulseaudio-utils
 Requires:	pulseaudio-module-x11
 Requires:	paprefs
-Requires:	pavucontrol
+Requires:	pavucontrol-qt
 #
 # don't suggest those, they aren't useful for most users
 # we don't want to get those installed by default
