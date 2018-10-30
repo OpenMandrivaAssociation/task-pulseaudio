@@ -2,7 +2,7 @@ Name:		task-pulseaudio
 Version:	%distro_release
 # Ugly, but needed for 2015.0 -> 3.0 transition
 Epoch:          1
-Release:	9
+Release:	10
 Summary:	Metapackage for PulseAudio
 Group:		Sound
 License:	GPL
