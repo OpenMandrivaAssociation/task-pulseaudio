@@ -9,8 +9,6 @@ License:	GPL
 Requires:	pulseaudio
 Requires:	pulseaudio-utils
 Requires:	pulseaudio-module-x11
-Requires:	paprefs
-Requires:	pavucontrol-qt
 #
 # don't suggest those, they aren't useful for most users
 # we don't want to get those installed by default
