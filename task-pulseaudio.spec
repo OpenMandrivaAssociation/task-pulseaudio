@@ -16,12 +16,12 @@ Requires:	pulseaudio-module-x11
 #Suggests:	pavumeter
 #Suggests:	padevchooser
 #
-Recomends:	pulseaudio-module-zeroconf
+Recommends:	pulseaudio-module-zeroconf
 #
 # don't suggest xine-pulse, plugin is not in a good shape ATM
 #Suggests:	xine-pulse
 Recommends:	gstreamer1.0-pulse
-Recomemnds:	alsa-plugins-pulseaudio
+Recommends:	alsa-plugins-pulseaudio
 
 BuildArch:	noarch
 
